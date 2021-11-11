@@ -1,0 +1,99 @@
+/* CSS REset */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+html{
+    scroll-behavior: smooth;
+    background: url('/img/thought-catalog-PeRNNIGmoNU-unsplash.jpg');
+}
+#navbar{
+    display: flex;
+    position: relative;
+    align-items: center;
+    top: 0px;
+}
+#navbar::before{
+    content:" ";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index:-1;
+    opacity: 0.15;
+}
+
+/* logo and image */
+#logo{
+    margin: 1px 20px;
+}
+#logo img{
+    height: 56px;
+    margin: 13px 20px;
+}
+
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+#navbar ul li a{
+    color: whitesmoke;
+    display: block;
+    padding:9px 20px ;
+    text-decoration: none;
+    border-radius: 20px;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: whitesmoke;
+
+}
+.home{
+    border: 2px solid #c3c3e6;
+    border-radius: 10px;
+    margin: 12px;
+
+
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    padding: 27px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    
+}
+.home img{
+    display:inline;
+   height: 50px;
+   margin: 5px 20px;
+}
+.h-primary{
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 12px;
+    
+}
+.h-secondry{
+   font-size: 1.8rem;
+   padding: 12px;
+}
+footer{
+    background: black;
+    color: whitesmoke;
+    padding: 9px 20px;
+    text-align: center;
+    justify-content: center;
+}
+#item{
+    display: block;
+    text-decoration: none;
+    
+
+}
